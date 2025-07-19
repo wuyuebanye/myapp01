@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "install_dependencies", // 任务名称，与 launch.json 中的 preLaunchTask 对应
+        "type": "shell",                 // 任务类型是 shell 命令
+        "command": "./install_deps.sh",  // 要执行的命令
+        "problemMatcher": [],
+        "presentation": {
+          "reveal": "always", // 总是显示任务终端的输出
+          "panel": "new"
+        }
+      }
+    ]
+  }
